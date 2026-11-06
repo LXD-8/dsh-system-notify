@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "System notifications",
+    "description": "Shows a system notification when a turn finishes and when the agent needs your answer or approval."
+  }
+}

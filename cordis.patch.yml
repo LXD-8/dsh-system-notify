@@ -1,0 +1,5 @@
+# System notifications bundle patch: one Host row that listens to turn and
+# request events and hands them to the operating system's notifier.
+- insert:
+    - id: dsh-system-notify
+      name: '@local/dsh-system-notify'
