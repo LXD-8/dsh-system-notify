@@ -1,11 +1,18 @@
 <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-color-scheme: dark) {
+      .sn-body-a { stop-color: #8FB4FF; }
+      .sn-body-b { stop-color: #6B9BFF; }
+      .sn-dot { fill: #5CF2C4; }
+    }
+  </style>
   <path d="M18 7a7 7 0 0 0-7 7v4.4l-1.7 3.3a1 1 0 0 0 .9 1.5h15.6a1 1 0 0 0 .9-1.5L25 18.4V14a7 7 0 0 0-7-7Z" stroke="url(#bell-body)" stroke-width="3" stroke-linejoin="round" />
   <path d="M15.2 26.6a2.9 2.9 0 0 0 5.6 0" stroke="url(#bell-body)" stroke-width="3" stroke-linecap="round" />
-  <circle cx="27.1" cy="8.9" r="2.6" fill="#41E1AC" />
+  <circle class="sn-dot" cx="27.1" cy="8.9" r="2.6" fill="#41E1AC" />
   <defs>
     <linearGradient id="bell-body" x1="10" y1="7" x2="26" y2="29" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#658EFF" />
-      <stop offset="1" stop-color="#3F77D8" />
+      <stop class="sn-body-a" stop-color="#658EFF" />
+      <stop class="sn-body-b" offset="1" stop-color="#3F77D8" />
     </linearGradient>
   </defs>
 </svg>

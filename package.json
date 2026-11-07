@@ -1,6 +1,6 @@
 {
   "name": "@local/dsh-system-notify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "type": "module",
   "description": "Shows a system notification when a turn finishes and when the agent needs your answer or approval.",
