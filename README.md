@@ -28,10 +28,10 @@ Clone this repository, then add it to your DSH profile as a linked dependency an
 select the `dsh-system-notify` bundle:
 
 ```json
-"@local/dsh-system-notify": "link:/absolute/path/to/dsh-system-notify"
+"dsh-system-notify": "link:/absolute/path/to/dsh-system-notify"
 ```
 
-The bundle name is `@local/dsh-system-notify`; after the next load notifications
+The bundle name is `dsh-system-notify`; after the next load notifications
 start. Or install with the CLI:
 
 ```bash
@@ -78,7 +78,7 @@ the profile patch.
 ```yaml
 - insert:
     - id: dsh-system-notify
-      name: '@local/dsh-system-notify'
+      name: 'dsh-system-notify'
       config:
         turnComplete: true       # notify when a turn completes
         turnMaxTokens: true      # notify when a turn stops at the output limit

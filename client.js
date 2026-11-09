@@ -7,7 +7,7 @@
  * one belongs to the helper process, so macOS draws a generic script icon.
  */
 window.__ModuleLoader__.load({
-  id: '@local/dsh-system-notify',
+  id: 'dsh-system-notify',
   factory() {
     const PATH = '/dsh-system-notify/events'
     const RECONNECT_MIN_MS = 1_000

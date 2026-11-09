@@ -1,5 +1,5 @@
 {
-  "name": "@local/dsh-system-notify",
+  "name": "dsh-system-notify",
   "version": "1.0.1",
   "private": true,
   "type": "module",
@@ -32,5 +32,13 @@
   "license": "MIT",
   "dependencies": {
     "@deepseek-ai/schemastery": "^3.19.0"
+  },
+  "author": {
+    "name": "LI",
+    "url": "https://github.com/LXD-8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LXD-8/dsh-system-notify.git"
   }
 }
